@@ -3,22 +3,77 @@ import "./Main.scss";
 
 function Main() {
   return (
-    <div className="page-main">
-      {[1, 2, 3, 4, 5, 6].map(() => (
-        <p className="pb-4">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
-          excepturi dolorum earum quia officia nesciunt ipsam nostrum iure
-          deserunt doloribus et libero dolor laudantium id magni, repudiandae
-          eligendi maiores esse. Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Architecto excepturi dolorum earum quia officia
-          nesciunt ipsam nostrum iure deserunt doloribus et libero dolor
-          laudantium id magni, repudiandae eligendi maiores esse. Lorem ipsum
-          dolor sit amet consectetur adipisicing elit. Architecto excepturi
-          dolorum earum quia officia nesciunt ipsam nostrum iure deserunt
-          doloribus et libero dolor laudantium id magni, repudiandae eligendi
-          maiores esse.
-        </p>
-      ))}
+    <div className="page-main pt-5">
+      <p>
+        The death of George Floyd and history of police brutality in America has
+        been deeply distressing to me personally. I have found a way to
+        peacefully respond and take direct action that will produce needed
+        change.
+      </p>
+      <h2>Will you help make a difference and join the Movement?</h2>
+      <img src="/banner.jpg" alt="Call to action banner" className="py-4" />
+      <p>
+        The Million Letter Movement empowers citizens to send{" "}
+        <a href="/letters">letters</a> to the Police Chiefs and Mayors of
+        America’s 50 most populous, and 10 deadliest cities. These letters
+        demand the{" "}
+        <a className="ecw" href="https://8cantwait.org/">
+          8 Can’t Wait
+        </a>{" "}
+        police reforms be adopted NOW. You will use pre-written{" "}
+        <a href="/letters">letters</a> based on city specific research. The goal
+        is one million letters sent in two weeks.
+      </p>
+      <p>
+        For information about the{" "}
+        <a className="ecw" href="https://8cantwait.org/">
+          8 Can’t Wait
+        </a>{" "}
+        policies, visit their website. These policies are proven to reduce harm
+        caused by police, and are endorsed by President Barack Obama, Oprah
+        Winfrey, and Jack Dorsey (co-founder of Twitter).
+      </p>
+
+      <p>
+        <b>Here’s how you can make a difference:</b>
+      </p>
+      <ul className="list-disc list-outside pl-5">
+        <li>
+          Join the{" "}
+          <a href="https://www.facebook.com/groups/millionlettermovement/">
+            Million Letter Movement Facebook Group
+          </a>{" "}
+          for instructions, <a href="/letters">pre-written letters</a>, and
+          information.
+          {/* :{" "}
+          <a href="https://www.facebook.com/groups/millionlettermovement/">
+            https://www.facebook.com/groups/millionlettermovement/
+          </a>
+          */}
+        </li>
+        <li>
+          Send your <a href="/letters">letters</a> to the Chief of Police and
+          Mayor of your city.
+        </li>
+        <li>
+          Share the invitation with your friends &amp; followers, asking them to
+          join us.
+        </li>
+      </ul>
+      <p>
+        Please join me in making history with the Million Letter Movement.
+        Together we can reduce police brutality and stop excessive force. Take a
+        moment and send your <a href="/letters">letters</a>.
+      </p>
+      <p className="text-center text-xl">
+        <b>NOW.</b>
+      </p>
+      <p>
+        #millionlettermovement <br />
+        #blacklivesmatter <br />
+        #strongertogether <br />
+        #wethepeople <br />
+      </p>
     </div>
   );
 }

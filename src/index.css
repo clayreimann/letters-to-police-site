@@ -6,7 +6,11 @@
 /* purgecss end ignore */
 
 #root {
-  @apply bg-gray-900;
+  background: #111;
   @apply text-gray-100;
   min-height: 100vh;
+}
+
+a {
+  text-decoration: underline;
 }

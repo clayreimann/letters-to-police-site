@@ -10,9 +10,9 @@ import Contact from "./pages/contact/Contact";
 
 function App() {
   return (
-    <div className="app-container container mx-auto pb-4">
-      <Router>
-        <Header />
+    <Router>
+      <Header />
+      <div className="app-container container mx-auto pb-4">
         <div className="app-content">
           <Switch>
             <Route path="/about">
@@ -29,8 +29,8 @@ function App() {
             </Route>
           </Switch>
         </div>
-      </Router>
-    </div>
+      </div>
+    </Router>
   );
 }
 
