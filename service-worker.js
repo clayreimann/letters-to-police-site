@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/letters-to-police-site/precache-manifest.6abb518212d4c11d556efb780b88417f.js"
+  "/letters-to-police-site/precache-manifest.1d8a19d5a41d0bf39e1a8da3fc3a7a69.js"
 );
 
 self.addEventListener('message', (event) => {
