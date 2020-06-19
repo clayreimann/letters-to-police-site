@@ -27,7 +27,7 @@
   "scripts": {
     "start": "craco start",
     "build": "craco build",
-    "postbuild": "npx react-snap",
+    "postbuild": "echo 'skipping npx react-snap'",
     "test": "craco test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
