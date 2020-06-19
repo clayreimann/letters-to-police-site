@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/letters-to-police-site/static/css/main.6ebcd22e.chunk.css",
-    "main.js": "/letters-to-police-site/static/js/main.0eefdf05.chunk.js",
-    "main.js.map": "/letters-to-police-site/static/js/main.0eefdf05.chunk.js.map",
-    "runtime-main.js": "/letters-to-police-site/static/js/runtime-main.6aef9669.js",
-    "runtime-main.js.map": "/letters-to-police-site/static/js/runtime-main.6aef9669.js.map",
-    "static/js/2.3bb601cb.chunk.js": "/letters-to-police-site/static/js/2.3bb601cb.chunk.js",
-    "static/js/2.3bb601cb.chunk.js.map": "/letters-to-police-site/static/js/2.3bb601cb.chunk.js.map",
+    "main.css": "/letters-to-police-site/static/css/main.16a1b481.chunk.css",
+    "main.js": "/letters-to-police-site/static/js/main.352d5dbb.chunk.js",
+    "main.js.map": "/letters-to-police-site/static/js/main.352d5dbb.chunk.js.map",
+    "runtime-main.js": "/letters-to-police-site/static/js/runtime-main.31301e10.js",
+    "runtime-main.js.map": "/letters-to-police-site/static/js/runtime-main.31301e10.js.map",
+    "static/js/2.5a1fdecf.chunk.js": "/letters-to-police-site/static/js/2.5a1fdecf.chunk.js",
+    "static/js/2.5a1fdecf.chunk.js.map": "/letters-to-police-site/static/js/2.5a1fdecf.chunk.js.map",
     "index.html": "/letters-to-police-site/index.html",
-    "precache-manifest.9bf67fcb60b7330f733f4acae594f4d3.js": "/letters-to-police-site/precache-manifest.9bf67fcb60b7330f733f4acae594f4d3.js",
+    "precache-manifest.d1d70024757593efb777547b5d34bd5a.js": "/letters-to-police-site/precache-manifest.d1d70024757593efb777547b5d34bd5a.js",
     "service-worker.js": "/letters-to-police-site/service-worker.js",
-    "static/css/main.6ebcd22e.chunk.css.map": "/letters-to-police-site/static/css/main.6ebcd22e.chunk.css.map",
-    "static/js/2.3bb601cb.chunk.js.LICENSE.txt": "/letters-to-police-site/static/js/2.3bb601cb.chunk.js.LICENSE.txt"
+    "static/css/main.16a1b481.chunk.css.map": "/letters-to-police-site/static/css/main.16a1b481.chunk.css.map",
+    "static/js/2.5a1fdecf.chunk.js.LICENSE.txt": "/letters-to-police-site/static/js/2.5a1fdecf.chunk.js.LICENSE.txt",
+    "static/media/banner.jpg": "/letters-to-police-site/static/media/banner.164f6503.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.6aef9669.js",
-    "static/js/2.3bb601cb.chunk.js",
-    "static/css/main.6ebcd22e.chunk.css",
-    "static/js/main.0eefdf05.chunk.js"
+    "static/js/runtime-main.31301e10.js",
+    "static/js/2.5a1fdecf.chunk.js",
+    "static/css/main.16a1b481.chunk.css",
+    "static/js/main.352d5dbb.chunk.js"
   ]
 }
