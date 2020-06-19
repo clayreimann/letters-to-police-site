@@ -13,7 +13,7 @@ import Letters from "./pages/letters/Letters";
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Header />
       <div className="app-container container mx-auto pb-4">
         <div className="app-content">
@@ -21,7 +21,7 @@ function App() {
             {/* <Route path="/about">
               <About />
             </Route> */}
-            <Route path="/letters">
+            <Route path={`${process.env.PUBLIC_URL}/letters`}>
               <Letters />
             </Route>
             {/* <Route path="/contact">
@@ -30,7 +30,7 @@ function App() {
             <Route path="/" exact>
               <Main />
             </Route>
-            <Redirect to="/" />
+            <Redirect to={`${process.env.PUBLIC_URL}/`} />
           </Switch>
         </div>
       </div>
