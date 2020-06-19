@@ -20,14 +20,14 @@
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
-    "react-snap": "^1.23.0",
+    "react-snap": "https://github.com/clayreimann/react-snap.git#no-crawl-links",
     "tailwindcss": "^1.4.6",
     "typescript": "^3.7.5"
   },
   "scripts": {
     "start": "craco start",
     "build": "craco build",
-    "postbuild": "echo 'skipping npx react-snap'",
+    "postbuild": "npx react-snap",
     "test": "craco test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
@@ -36,6 +36,7 @@
   "eslintConfig": {
     "extends": "react-app"
   },
+  "homepage": "/letters-to-police-site",
   "browserslist": {
     "production": [
       ">0.2%",

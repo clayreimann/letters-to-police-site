@@ -1,0 +1,29 @@
+/* purgecss start ignore */
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+
+/* purgecss end ignore */
+
+#root {
+  background: #111;
+  @apply text-gray-100;
+  min-height: 100vh;
+}
+
+.text-theme {
+  color: rgb(254, 210, 4);
+}
+
+.font-theme {
+  &.header {
+    font-family: 'Helvetica Neue Black', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-stretch: semi-condensed;
+}
+
+a {
+  text-decoration: underline;
+}

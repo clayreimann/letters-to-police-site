@@ -27,7 +27,11 @@ const nodes = states.map((state) => {
     ${cities
       .map((c) => {
         const f = files[state][c];
-        return `<li><span className="city">${c}</span> <a href="/docs/${f.Mayor}" className="link">Mayor</a> <a href="/docs/${f.Police}" className="link">Police</a> </li>`;
+        return `<li>
+        <span className="city">${c}</span>
+        <a href="/docs/${f.Mayor}" className="link" data-no-snap>Mayor</a>
+        <a href="/docs/${f.Police}" className="link" data-no-snap>Police</a>
+        </li>`;
       })
       .join("\n")}
   </ul>
@@ -42,6 +46,7 @@ import "./Letters.scss";
 function Letters() {
   return (
     <div className="page-letters">
+    <p>Cities and states are listed alphabetically, click on each link to download the letter.</p>
     ${nodes.join("\n")}
     </div>
   );
@@ -54,8 +59,7 @@ export default Letters;
 
 fmt.then(
   (res) => {
-    const { dest, settings } = res;
-    console.log(settings, dest);
+    const { dest } = res;
     fs.writeFileSync("./src/pages/letters/Letters.tsx", dest);
   },
   (err) => console.error(err)

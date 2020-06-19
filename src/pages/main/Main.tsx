@@ -1,5 +1,6 @@
 import React from "react";
 import "./Main.scss";
+import banner from "./banner.jpg";
 
 function Main() {
   return (
@@ -11,7 +12,7 @@ function Main() {
         change.
       </p>
       <h2>Will you help make a difference and join the Movement?</h2>
-      <img src="/banner.jpg" alt="Call to action banner" className="py-4" />
+      <img src={banner} alt="Call to action banner" className="py-4" />
       <p>
         The Million Letter Movement empowers citizens to send{" "}
         <a href="/letters">letters</a> to the Police Chiefs and Mayors of
@@ -35,7 +36,7 @@ function Main() {
       </p>
 
       <p>
-        <b>Here’s how you can make a difference:</b>
+        <b className="text-theme">Here’s how you can make a difference:</b>
       </p>
       <ul className="list-disc list-outside pl-5">
         <li>
@@ -65,7 +66,7 @@ function Main() {
         Together we can reduce police brutality and stop excessive force. Take a
         moment and send your <a href="/letters">letters</a>.
       </p>
-      <p className="text-center text-xl">
+      <p className="text-center text-2xl text-theme">
         <b>NOW.</b>
       </p>
       <p>
