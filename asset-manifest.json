@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/letters-to-police-site/static/css/main.94411d89.chunk.css",
-    "main.js": "/letters-to-police-site/static/js/main.bf9544a6.chunk.js",
-    "main.js.map": "/letters-to-police-site/static/js/main.bf9544a6.chunk.js.map",
-    "runtime-main.js": "/letters-to-police-site/static/js/runtime-main.31301e10.js",
-    "runtime-main.js.map": "/letters-to-police-site/static/js/runtime-main.31301e10.js.map",
-    "static/js/2.ef8c819a.chunk.js": "/letters-to-police-site/static/js/2.ef8c819a.chunk.js",
-    "static/js/2.ef8c819a.chunk.js.map": "/letters-to-police-site/static/js/2.ef8c819a.chunk.js.map",
-    "index.html": "/letters-to-police-site/index.html",
-    "precache-manifest.6a133e62735fee36d2b3ab216971747a.js": "/letters-to-police-site/precache-manifest.6a133e62735fee36d2b3ab216971747a.js",
-    "service-worker.js": "/letters-to-police-site/service-worker.js",
-    "static/css/main.94411d89.chunk.css.map": "/letters-to-police-site/static/css/main.94411d89.chunk.css.map",
-    "static/js/2.ef8c819a.chunk.js.LICENSE.txt": "/letters-to-police-site/static/js/2.ef8c819a.chunk.js.LICENSE.txt",
-    "static/media/banner.jpg": "/letters-to-police-site/static/media/banner.164f6503.jpg"
+    "main.css": "/static/css/main.803a4998.chunk.css",
+    "main.js": "/static/js/main.1cce8bdf.chunk.js",
+    "main.js.map": "/static/js/main.1cce8bdf.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b27a0b81.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b27a0b81.js.map",
+    "static/js/2.ef8c819a.chunk.js": "/static/js/2.ef8c819a.chunk.js",
+    "static/js/2.ef8c819a.chunk.js.map": "/static/js/2.ef8c819a.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.c14c21e9dcf3495d5e7152b6e4464c76.js": "/precache-manifest.c14c21e9dcf3495d5e7152b6e4464c76.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.803a4998.chunk.css.map": "/static/css/main.803a4998.chunk.css.map",
+    "static/js/2.ef8c819a.chunk.js.LICENSE.txt": "/static/js/2.ef8c819a.chunk.js.LICENSE.txt",
+    "static/media/banner.jpg": "/static/media/banner.164f6503.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.31301e10.js",
+    "static/js/runtime-main.b27a0b81.js",
     "static/js/2.ef8c819a.chunk.js",
-    "static/css/main.94411d89.chunk.css",
-    "static/js/main.bf9544a6.chunk.js"
+    "static/css/main.803a4998.chunk.css",
+    "static/js/main.1cce8bdf.chunk.js"
   ]
 }
