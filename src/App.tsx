@@ -5,15 +5,17 @@ import {
   Route,
   Redirect,
 } from "react-router-dom";
+
 import "./App.scss";
 
 import Header from "./components/Header";
 import Main from "./pages/main/Main";
 import Letters from "./pages/letters/Letters";
+import { to } from "./helpers";
 
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router>
       <Header />
       <div className="app-container container mx-auto pb-4">
         <div className="app-content">
@@ -21,16 +23,16 @@ function App() {
             {/* <Route path="/about">
               <About />
             </Route> */}
-            <Route path={`${process.env.PUBLIC_URL}/letters`}>
+            <Route path={to("/letters")}>
               <Letters />
             </Route>
             {/* <Route path="/contact">
               <Contact />
             </Route> */}
-            <Route path="/" exact>
+            <Route path={to("/")} exact>
               <Main />
             </Route>
-            <Redirect to={`${process.env.PUBLIC_URL}/`} />
+            <Redirect to={to("/")} />
           </Switch>
         </div>
       </div>
