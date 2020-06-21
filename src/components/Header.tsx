@@ -8,7 +8,7 @@ function Header() {
     <header id="header" className="bg-black flex justify-center">
       <div className="container flex flex-col md:flex-row md:justify-between py-10">
         <Link to={to("/")} className="text-theme">
-          <h1>Million Letters Movement</h1>
+          <h1 className="uppercase">Million Letter Movement</h1>
         </Link>
         <ul className="flex items-center">
           {/* <li className="p-1">
