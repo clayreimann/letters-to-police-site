@@ -10,16 +10,12 @@ const cityTemplate = (city, state, mayorDocName, policeDocName) =>
   `
   <li>
     <span className="city">${city}</span>
-    <a href="/docs/${mayorDocName}" className="link" onClick={${letterEvt(
-    city,
-    state,
-    "mayor"
-  )}} data-no-snap>Mayor</a>
-    <a href="/docs/${policeDocName}" className="link" onClick={${letterEvt(
-    city,
-    state,
-    "police chief"
-  )}} data-no-snap>Police Chief</a>
+    <a href="/docs/${mayorDocName}" className="link"
+      onClick={${letterEvt(city, state, "mayor")}} data-no-snap
+    >Mayor</a>
+    <a href="/docs/${policeDocName}" className="link"
+      onClick={${letterEvt(city, state, "police chief")}} data-no-snap
+    >Police Chief</a>
   </li>
   `.trim();
 const files = fs
@@ -44,7 +40,7 @@ const nodes = states.map((state) => {
   const cities = Object.keys(files[state]);
   cities.sort();
   return `<h2>${state}</h2>
-  <ul>
+  <ul className="state">
     ${cities
       .map((c) => {
         const f = files[state][c];
@@ -75,7 +71,7 @@ function SearchLink({ city = "City, State", term }: SearchLinkProps) {
       onClick={() => search(term, city)}
       data-no-snap
     >
-      Search
+      Search{city && city !== "City, State" ? " " + city : ""}
     </a>
   );
 }

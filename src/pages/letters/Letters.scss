@@ -5,6 +5,13 @@
         padding-top: 1rem;
         padding-bottom: 0.5rem;
     }
+    ul.state li {
+        &:hover {
+            background: #222;
+        }
+        padding-top: 0.25rem;
+        padding-bottom: 0.25rem;
+    }
     .city {
         display: inline-block;
         width: 16rem;
