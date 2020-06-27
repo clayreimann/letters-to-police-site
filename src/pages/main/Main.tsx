@@ -9,6 +9,12 @@ const letters = (
   </a>
 );
 
+const cantWait = (
+  <a className="ecw" href="https://8cantwait.org/">
+    8 Can’t Wait
+  </a>
+);
+
 function Main() {
   pageView("/");
 
@@ -27,22 +33,15 @@ function Main() {
       <p>
         The Million Letter Movement empowers citizens to send {letters} to the
         Police Chiefs and Mayors of America’s 50 most populous, and 10 deadliest
-        cities. These letters demand the{" "}
-        <a className="ecw" href="https://8cantwait.org/">
-          8 Can’t Wait
-        </a>{" "}
-        police reforms be adopted NOW. You will use pre-written {letters} based
-        on city specific research. The goal is one million letters sent in two
-        weeks.
+        cities. These letters demand the {cantWait} police reforms be adopted
+        NOW. You will use pre-written {letters} based on city specific research.
+        The goal is one million letters sent in two weeks.
       </p>
       <p>
-        For information about the{" "}
-        <a className="ecw" href="https://8cantwait.org/">
-          8 Can’t Wait
-        </a>{" "}
-        policies, visit their website. These policies are proven to reduce harm
-        caused by police, and are endorsed by President Barack Obama, Oprah
-        Winfrey, and Jack Dorsey (co-founder of Twitter).
+        For information about the {cantWait} policies, visit their website.
+        These policies are proven to reduce harm caused by police, and are
+        endorsed by President Barack Obama, Oprah Winfrey, and Jack Dorsey
+        (co-founder of Twitter).
       </p>
 
       <p>

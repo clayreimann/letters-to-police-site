@@ -199,6 +199,51 @@ function Letters() {
             onClick={() => event('letter download police chief', 'CT Hartford')} data-no-snap
           >Police Chief</a>
         </li>
+        <li>
+          <span className="city">New Britain</span>
+          <a href="/docs/New Britain_CT_Mayor_Stewart.docx" className="link"
+            onClick={() => event('letter download mayor', 'CT New Britain')} data-no-snap
+          >Mayor</a>
+          <a href="/docs/New Britain_CT_Police_Chute.docx" className="link"
+            onClick={() => event('letter download police chief', 'CT New Britain')} data-no-snap
+          >Police Chief</a>
+        </li>
+        <li>
+          <span className="city">New Haven</span>
+          <a href="/docs/New Haven_CT_Mayor_Elicker.docx" className="link"
+            onClick={() => event('letter download mayor', 'CT New Haven')} data-no-snap
+          >Mayor</a>
+          <a href="/docs/New Haven_CT_Police_Reyes.docx" className="link"
+            onClick={() => event('letter download police chief', 'CT New Haven')} data-no-snap
+          >Police Chief</a>
+        </li>
+        <li>
+          <span className="city">New London</span>
+          <a href="/docs/New London_CT_Mayor_Passero.docx" className="link"
+            onClick={() => event('letter download mayor', 'CT New London')} data-no-snap
+          >Mayor</a>
+          <a href="/docs/New London_CT_Police_Reichard.docx" className="link"
+            onClick={() => event('letter download police chief', 'CT New London')} data-no-snap
+          >Police Chief</a>
+        </li>
+        <li>
+          <span className="city">Norwich</span>
+          <a href="/docs/Norwich_CT_Mayor_Nystrom.docx" className="link"
+            onClick={() => event('letter download mayor', 'CT Norwich')} data-no-snap
+          >Mayor</a>
+          <a href="/docs/Norwich_CT_Police_Daley.docx" className="link"
+            onClick={() => event('letter download police chief', 'CT Norwich')} data-no-snap
+          >Police Chief</a>
+        </li>
+        <li>
+          <span className="city">Willimantic</span>
+          <a href="/docs/Willimantic_CT_Mayor_Funderburk.docx" className="link"
+            onClick={() => event('letter download mayor', 'CT Willimantic')} data-no-snap
+          >Mayor</a>
+          <a href="/docs/Willimantic_CT_Police_Rosado.docx" className="link"
+            onClick={() => event('letter download police chief', 'CT Willimantic')} data-no-snap
+          >Police Chief</a>
+        </li>
       </ul>
 
       <h2>DC</h2>

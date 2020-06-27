@@ -3,9 +3,19 @@
         font-size: 2.5rem;
     }
     a {
+        color: white;
         text-decoration: none;
+        border-bottom: 1px solid;
+
         &.active {
-            text-decoration: underline;
+            text-decoration: none;
+            border-bottom: 3px solid;
+            padding-bottom: 0px;
+        }
+        &.brand {
+            border-bottom: none;
+            text-decoration: none !important;
+            font-weight: normal !important;
         }
     }
     .wide {
